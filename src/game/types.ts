@@ -12,5 +12,10 @@ export type GameState = {
 };
 
 export type Business = {
+  id: string;
+  name: string;
+  baseCost: number;
+  growth: number;
+  income: number;
   minRebrands?: number;
 };
