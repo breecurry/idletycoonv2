@@ -12,7 +12,7 @@ describe('formatNumber', () => {
   it('switches to K at 1000', () => {
     expect(formatNumber(1000)).toBe('1.00K');
   });
-  it('formats millions to two decimles', () => {
+  it('formats millions to two decimals', () => {
     expect(formatNumber(1234567)).toBe('1.23M');
   });
   it('formats trillions', () => {
