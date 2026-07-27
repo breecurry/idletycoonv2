@@ -1,0 +1,16 @@
+export const ECONOMY = {
+  workPay: 1,
+  managerBasePay: 2,
+  managerBaseCost: 10,
+  managerCostGrowth: 1.5,
+  trainingBaseCost: 50,
+  trainingCostGrowth: 2,
+  tapPowerBaseCost: 500,
+  tapPowerCostGrowth: 4,
+  unlockRatio: 0.5,
+  milestoneCount: 10,
+  milestoneBonus: 2,
+  prestigeBonus: 0.02,
+  prestigeDivisor: 1000000,
+  workRatio: 0.05,
+} as const;
