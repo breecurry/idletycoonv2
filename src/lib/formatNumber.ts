@@ -11,6 +11,15 @@ const SUFFIXES = [
   'Oc',
   'No',
   'Dc',
+  'UDc',
+  'DDc',
+  'TDc',
+  'QaDc',
+  'QiDc',
+  'SeDc',
+  'ODc',
+  'NDc',
+  'Vig',
 ];
 
 export function formatNumber(value: number): string {
