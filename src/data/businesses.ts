@@ -92,7 +92,7 @@ export const BUSINESSES: Business[] = [
     name: 'Skyscraper',
     baseCost: 349000000000,
     growth: 1.7,
-    income: 1000000000000,
+    income: 10000000000,
     minRebrands: 20,
   },
   {
