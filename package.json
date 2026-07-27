@@ -13,11 +13,9 @@
     "format:check": "prettier --check .",
     "test": "jest"
   },
-
   "jest": {
     "preset": "jest-expo"
   },
-  
   "dependencies": {
     "expo": "~54.0.35",
     "expo-status-bar": "~3.0.9",
